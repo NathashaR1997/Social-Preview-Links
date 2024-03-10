@@ -1,0 +1,38 @@
+.topsection{
+    text-align: center;    
+    .image{
+        img {
+            margin: auto;
+        }
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $white;
+            padding-top: 30px;
+            padding-bottom: 0px;
+        }
+        
+        h2 {
+            font-size: 15px;
+            font-weight: 700;
+            color: $luminousYellow;
+            padding-top: 10px;
+            padding-bottom: 0px;
+        }
+        
+        h3 {
+            font-size: 15px;
+            font-weight: 500;
+            color: $grey;
+            padding-top: 30px;
+            padding-bottom: 0px;
+        }
+    }
+}

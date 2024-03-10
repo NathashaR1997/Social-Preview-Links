@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+html {
+  font-size: 100%;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+*, a {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #141414;
+  margin-top: 10%;
+}
+
+.maincontainer {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.maincontainer {
+  max-width: 368px;
+  height: auto;
+  background-color: #1F1F1F;
+  align-items: center;
+  padding: 40px 30px 40px 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.topsection {
+  text-align: center;
+}
+.topsection .image img {
+  margin: auto;
+}
+.topsection .details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.topsection .details h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.topsection .details h2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #C4F82A;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.topsection .details h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #E9E9E9;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.bottomsection {
+  padding-top: 30px;
+}
+.bottomsection .buttons {
+  display: flex;
+  flex-direction: column;
+}
+.bottomsection .buttons .first,
+.bottomsection .buttons .two,
+.bottomsection .buttons .three,
+.bottomsection .buttons .four,
+.bottomsection .buttons .five {
+  background-color: #333333;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
